@@ -139,7 +139,7 @@
 </template>
 
 <script>
-import StorefrontNavbar from '@/components/storefront/StorefrontNavbar.vue'
+import StorefrontNavbar from '@/components/storefront/StoreFrontNavbar.vue'
 import api from '@/services/api.js'
 
 export default {
