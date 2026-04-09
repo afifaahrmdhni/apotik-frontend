@@ -120,7 +120,7 @@
 
 <script>
 import api from '@/services/api.js'
-import { useAuth } from '@/composables/useAuth.js' // 1. Import useAuth
+import { useAuth } from '@/composables/UseAuth.js' // 1. Import useAuth
 
 export default {
   name: 'LoginPage',

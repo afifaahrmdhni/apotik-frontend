@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import StorefrontNavbar  from '@/components/storefront/StorefrontNavbar.vue'
+import StorefrontNavbar  from '@/components/storefront/StoreFrontNavbar.vue'
 import HeroSection       from '@/components/storefront/HeroSection.vue'
 import JenisObatSection  from '@/components/storefront/JenisObatSection.vue'
 import KatalogObatSection from '@/components/storefront/KatalogObatSection.vue'
