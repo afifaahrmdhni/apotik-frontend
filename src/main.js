@@ -2,20 +2,18 @@ import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 import App from './App.vue'
 import router from './router'
-import axios from 'axios' // 1. Import axios
+import axios from 'axios'
 import './styles/global.css'
 
-// 2. Set alamat Backend Ngrok kamu di sini
+// Link Ngrok kamu
 axios.defaults.baseURL = 'https://floppiest-cordia-pharmaceutically.ngrok-free.dev/api'
 
-axios.defaults.headers.common['ngrok-skip-browser-warning'] = 'true'
-axios.defaults.withCredentials = true
+// Ini header wajib biar Ngrok gak rewel
+axios.defaults.headers.common['ngrok-skip-browser-warning'] = '69420' 
+axios.defaults.headers.common['Accept'] = 'application/json'
 
 const app = createApp(App)
-
-// 3. Pasang axios ke global properties supaya bisa dipake di semua komponen
 app.config.globalProperties.$axios = axios
-
 app.use(createPinia())
 app.use(router)
 app.mount('#app')
