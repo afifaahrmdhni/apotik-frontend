@@ -6,7 +6,7 @@ import HomePage from '@/views/HomePage.vue'
 import LoginPage from '@/views/LoginPage.vue'
 import RegisterPage from '@/views/RegisterPage.vue'
 import ProductDetailPage from '@/views/ProductDetailPage.vue'
-import CheckoutPage from '@/views/CheckoutPage.vue'
+import CheckoutPage from '@/views/CheckOutPage.vue'
 import WellnessProfilePage from '@/views/WellnessProfilePage.vue'
 
 // ── Admin ───────────────────────────────────
