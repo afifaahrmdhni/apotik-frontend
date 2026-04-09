@@ -9,6 +9,7 @@ import './styles/global.css'
 axios.defaults.baseURL = 'https://floppiest-cordia-pharmaceutically.ngrok-free.dev/api'
 
 axios.defaults.headers.common['ngrok-skip-browser-warning'] = 'true'
+axios.defaults.withCredentials = true
 
 const app = createApp(App)
 
