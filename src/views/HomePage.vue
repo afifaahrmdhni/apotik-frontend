@@ -12,7 +12,7 @@
 import StorefrontNavbar  from '@/components/storefront/StoreFrontNavbar.vue'
 import HeroSection       from '@/components/storefront/HeroSection.vue'
 import JenisObatSection  from '@/components/storefront/JenisObatSection.vue'
-import KatalogObatSection from '@/components/storefront/KatalOgObatSection.vue'
+import KatalogObatSection from '@/components/storefront/KatalogObatSection.vue'
 import NewsletterFooter  from '@/components/storefront/NewsLetterFooter.vue'
 import api               from '@/services/api.js'
 
