@@ -6,10 +6,8 @@ import axios from 'axios'
 import './styles/global.css'
 
 // Link Ngrok kamu
-axios.defaults.baseURL = 'https://floppiest-cordia-pharmaceutically.ngrok-free.dev/api'
+axios.defaults.baseURL = import.meta.env.VITE_API_URL
 
-// Ini header wajib biar Ngrok gak rewel
-axios.defaults.headers.common['ngrok-skip-browser-warning'] = '69420' 
 axios.defaults.headers.common['Accept'] = 'application/json'
 
 const app = createApp(App)

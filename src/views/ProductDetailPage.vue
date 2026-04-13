@@ -111,10 +111,6 @@
                 <span class="material-symbols-outlined meta-icon">verified</span>
                 <span class="meta-label">Terdaftar BPOM</span>
               </div>
-              <div class="meta-row">
-                <span class="material-symbols-outlined meta-icon">local_shipping</span>
-                <span class="meta-label">Gratis ongkir untuk pembelian pertama</span>
-              </div>
             </div>
           </div>
         </div>
